@@ -3,13 +3,13 @@
 ## Installation
 
 ```
-npm install @directus/sdk
+npm install @directus9/sdk
 ```
 
 ## Basic Usage
 
 ```js
-import { Directus } from '@directus/sdk';
+import { Directus } from '@directus9/sdk';
 
 const directus = new Directus('http://directus.example.com');
 
@@ -18,7 +18,7 @@ console.log(items);
 ```
 
 ```js
-import { Directus } from '@directus/sdk';
+import { Directus } from '@directus9/sdk';
 
 const directus = new Directus('http://directus.example.com');
 
