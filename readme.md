@@ -3,13 +3,13 @@
 ## Installation
 
 ```
-npm install @directus9/sdk
+npm install @wbce-d9/sdk
 ```
 
 ## Basic Usage
 
 ```js
-import { Directus } from '@directus9/sdk';
+import { Directus } from '@wbce-d9/sdk';
 
 const directus = new Directus('http://directus.example.com');
 
@@ -18,7 +18,7 @@ console.log(items);
 ```
 
 ```js
-import { Directus } from '@directus9/sdk';
+import { Directus } from '@wbce-d9/sdk';
 
 const directus = new Directus('http://directus.example.com');
 
