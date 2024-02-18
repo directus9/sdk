@@ -36,6 +36,7 @@ export abstract class IAuth {
 	abstract readonly password: PasswordsHandler;
 
 	abstract login(credentials: AuthCredentials): Promise<AuthResult>;
+	abstract setAuthResult(auth: AuthResult): void;
 	abstract refresh(): Promise<AuthResult | false>;
 	abstract refreshIfExpired(): Promise<void>;
 	abstract static(token: AuthToken): Promise<boolean>;
