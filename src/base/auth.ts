@@ -147,6 +147,10 @@ export class Auth extends IAuth {
 		};
 	}
 
+	async setAuthResult(auth: AuthResult) {
+		this.updateStorage(auth);
+	}
+
 	async static(token: AuthToken): Promise<boolean> {
 		if (!this.staticToken) this.staticToken = token;
 
