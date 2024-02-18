@@ -1,6 +1,6 @@
 {
 	"name": "@wbce-d9/sdk",
-	"version": "10.3.3",
+	"version": "10.3.5",
 	"description": "The official Directus9 SDK for use in JavaScript!",
 	"repository": "directus9/sdk",
 	"main": "dist/sdk.cjs.js",
